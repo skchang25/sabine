@@ -164,7 +164,7 @@ print(f"Hello, my name is {name}")
 
 #cd: Changed directories, moves from one folder to another. Example: cd Desktop
 #ls: lists the contents of a directory. Example: ls (when used as the first line will display the contents of the User folder, or all exiting folder on the computer).
-#ls -a: lists information about directories and folders within the current directory. Example: ls -a (when used as the first command will display all folders and coding software, informatiosn and histories the computer uses).
+#ls -a: lists information about directories and folders within the current directory, including hidden folders. Example: ls -a (when used as the first command will display all folders and coding software (vs code and git hub), informatiosn and histories the computer uses).
 #mkdir: Creates a new folder in the existing directory. Example: mkdir homework_1
 #cat:
 #pwd: displays the path taken to get to a certain folder or file through all previous directories. Example: pwd ( as the first line will return the User file, pwd used after the homework_1 folder would display the User folder, Python_Decal_Fa25, yourname folder, and then homework_1).
