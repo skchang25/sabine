@@ -66,7 +66,8 @@
 	#with the all changes made to the remote repository while pulling from a remote repository takes just the 
 	#changes made and commits them to the local repository. 
 # 16) What has been your most frustrating bug or error in this class so far? How did you troubleshoot or fix it?
-	#So far, I have (thankfully) not had too made sever bugs, the only issue I ran into was 
+	#The only issues I have run into so far has been moving files, I was able to review the notes and 
+	#syntax to fix this. 
 # 17) What’s a question you still have? What’s something you’re confused about?
 	# I was still a bit confused about how the realative pathways worked, does this have a 
 	#static defenition of always starting from the parent directory or simplifying to 
