@@ -158,7 +158,7 @@ print("Hello, my name is", name)
 #3. The variable "name" is assigned the string "Oski". The print statment pritns the strings written and calls the variable 'name', which results in printing the name 'Oski'
 name = "Oski"
 print(f"Hello, my name is {name}")
-4. The first is a way to imbed the string inside 'name' into the string itself to be printed, the second will print a repersentation of the variable.
+#4. The first is a way to call the varible and automatically convert the value to a string to be printed. The uses an f-string, where the string is evaluated and the results are imbeded int othe string literal.
 
 # -- Terminal Commands
 
@@ -166,11 +166,31 @@ print(f"Hello, my name is {name}")
 #ls: lists the contents of a directory. Example: ls (when used as the first line will display the contents of the User folder, or all exiting folder on the computer).
 #ls -a: lists information about directories and folders within the current directory, including hidden folders. Example: ls -a (when used as the first command will display all folders and coding software (vs code and git hub), informatiosn and histories the computer uses).
 #mkdir: Creates a new folder in the existing directory. Example: mkdir homework_1
-#cat:
+#cat: Prints the contents of a file in the termial.
 #pwd: displays the path taken to get to a certain folder or file through all previous directories. Example: pwd ( as the first line will return the User file, pwd used after the homework_1 folder would display the User folder, Python_Decal_Fa25, yourname folder, and then homework_1).
 #cd ..: Returns to one directory above the current directory (towards the parent directory). Example: cd.. (used after the yourname folder would take you to the Python_Decal_Fa25 folder).
-#cd .: 
-#cd ~:
+#cd .: Does not change current directory, can help . Example: yourname % cd .
+#cd ~: Returns one to the User directory/ the largest directory on the computer. Example: Python_Decal_Fa25 % cd ~ --> ~ % (User directory) 
+#cp: Used for copying files and directories. Example: Python_Decal_Fa25 % cp --> displays inforamtion about the target file and target directory to be copied.
+#mv: Moves files and directories. Example: mv test.py Python_Decal_Fa25 
+#rm: Removes a file from a directory. Example: rm test.py
+#clear: This will clear visible outputs and commands on the terminal, returning it to a blank state. Exmaple: clear (clears all existing visible actions on the terminal page).
+#grep: Stands for Global Regular Expression Print", can search for patterns within a files. Example: grep "print" test.py --> returns the line "print(5+5)"
+
+#Questions
+#1.
+#   a. rmdir: Removes empty directories. Example: rmdir empty_directory.
+#   b. whoami: Displays the current username. Example: whoami --> sabinechang
+#   c. tail: displays the last ten lines of code in a file. Example tail homework1.py --> (prints lines 178-188 from file)
+#2. ls will display all directories and files within a direcotry, while ls -a will display all folders and files including hidden files/ folders.
+#3. Hidden folders are folders with information that is used in the operating system, such as data, prefrences and configured files that the user does not need to interact with on a daily basis.
+#4. 
+#   a. grep -i: ignores letter cases when using strings to search for patterns. Example: grep -i "term".
+#   b. cp -n: prevents files from being moved into a directory where the same file name already exists. Example: cp -n test.py homework1
+#   c.  mkdir -p: create a parent directory and nested directories at the same time if one does not already exist, witha name defined by the path. Example: mkdir -p dirParent/dirNested
+
+
+
 
 
 
